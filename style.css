@@ -1,0 +1,123 @@
+header{ 
+background-repeat: no-repeat;
+background-size: cover;
+}
+.flex-conteiner-1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menu{
+    margin-top: 50px;
+}
+.menu a{
+text-decoration: none;
+padding: 30px;
+color: white;
+font-family: 'Oswald', sans-serif;
+background-color: black;
+border-radius: 30%;
+
+}
+.menu :hover{
+    background: rgb(17,147,139);
+    background: linear-gradient(90deg, rgba(17,147,139,1) 0%, rgba(37,129,26,1) 69%, rgba(10,135,161,1) 100%);
+}
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.flex-conteiner-2 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.headertext{
+    background-color: oldlace;
+    width: 630px;
+    text-align: center;
+    margin: 50px;
+}
+.item{
+ background-color: black; 
+   height: 350px;
+   width: 350px;
+   margin: 50px;
+}
+.map{
+    width: 100%;
+}
+.main-footer{
+    display: flex;
+    flex-wrap: wrap; 
+justify-content: center;
+align-items: center;
+margin: 50px 0px 0px 0px;
+} 
+.image-footer{
+ margin-right: 50px;   
+}
+.form-footer{
+    margin-left: 50px ;
+}
+.transparent{
+  position: relative; 
+  padding: 60px 50px;
+  background-image: url(https://previews.123rf.com/images/bezwershenko/bezwershenko1703/bezwershenko170300115/74239482-zoo-vector-flat-illustration-animals-vector-flat-design-zoo-infographic-with-elephant-people-walk-in.jpg); 
+ background-size: cover;
+ 
+}
+.transparent::before{
+content: "" ;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right:0 ;
+background: rgb(0, 0, 0 ,.5);
+}
+.form-inner{
+    position: relative;    
+}
+.form-inner h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px; 
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+}
+.form-inner label{
+    font-family: 'Oswald', sans-serif;  
+    font-size: 15px; 
+    color: rgb(00,00 ,00.7 );
+}
+.form-inner input{
+    width: 100%;
+    border-radius:20px ;
+    font-family: 'Oswald', sans-serif;
+    border-width: 0; 
+    font-size: 15px; 
+    line-height: 30px;
+    background-color: rgb(0, 0, 0 ,.2);
+    color: white;
+    margin: 10px 0px 15px 0px;
+}
+.form-inner input[type="submit"]{
+ background:coral ;
+ text-transform: uppercase;
+}
+.form-inner textarea{
+    width: 100%;
+    border-radius:20px ;
+    background-color: rgb(0, 0, 0 ,.2);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    resize: none;
+}
